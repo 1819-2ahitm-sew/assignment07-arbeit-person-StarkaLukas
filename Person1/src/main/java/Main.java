@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        String filename = "personen.csv";
+        Person person = new Person();
+        String filename = "./personen.csv";
+        String file = readFile(filename);
 
     }
 
@@ -22,4 +24,5 @@ public class Main {
         }
         return stringBuilder.toString();
     }
+
 }

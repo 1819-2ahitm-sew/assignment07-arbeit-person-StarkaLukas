@@ -1,4 +1,4 @@
-public class Person {
+abstract class Person {
 
     public String vorname;
     public String nachname;
