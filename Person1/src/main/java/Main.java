@@ -11,9 +11,6 @@ public class Main {
 
 
         printPeople(readFile(filename, person, people));
-
-
-
     }
 
     private static void printPeople(Person[] readFile) {

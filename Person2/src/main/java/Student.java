@@ -10,4 +10,9 @@ public class Student extends Person{
         this.matrikelNr = matrikelNr;
         this.studienfach = studienfach;
     }
+
+    @Override
+    String personToString() {
+        return "Student: " + nachname + " " + vorname + " studiert an der Universität " + universitaet + " das Fach " + studienfach + " und besitzt die Matrikelnummer " + matrikelNr ;
+    }
 }

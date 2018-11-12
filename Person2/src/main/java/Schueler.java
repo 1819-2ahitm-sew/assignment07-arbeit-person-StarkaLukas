@@ -10,4 +10,9 @@ public class Schueler extends Person{
         this.klasse = klasse;
         this.katalogNr = katalogNr;
     }
+
+    @Override
+    String personToString() {
+        return "Schüler: " + nachname + " " + vorname + " geht auf die " + schule + " und besucht dort die Klasse " + klasse + ". Er besitzt die Katalognummer " + katalogNr;
+    }
 }

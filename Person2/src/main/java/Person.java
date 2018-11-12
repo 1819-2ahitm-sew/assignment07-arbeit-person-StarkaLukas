@@ -1,14 +1,16 @@
 abstract class Person {
 
-    public String vorname;
-    public String nachname;
+    protected String vorname;
+    protected String nachname;
 
-    public Person(String vorname, String nachname) {
+    protected Person(String vorname, String nachname) {
         this.vorname = vorname;
         this.nachname = nachname;
     }
 
-    public Person() {
+    protected Person() {
     }
+
+    abstract String personToString();
 
 }
